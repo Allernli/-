@@ -1,0 +1,14 @@
+public class BitwiseOperators{
+  public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    long num = scanner.nextLong();
+    //2次方
+    System.out.println(num<<1);
+    //3次方
+    System.out.println(num<<2);
+    //4次方
+    System.out.println(num<<3);
+    //5次方
+    System.out.println(num<<4);
+  }
+}
