@@ -1,0 +1,14 @@
+public class 循环体的过滤器continue {
+	public static void main(String[] args) {
+		String[] arr = {"鹦鹉","麻雀","老鹰","老鹰"};
+		int num = 0;
+		for(String str : arr) {
+			if(str.equals("老鹰")) {
+				num++;
+				continue;
+			}
+			System.out.println(str);
+		}
+		System.out.println(num);
+	}
+}
