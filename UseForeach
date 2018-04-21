@@ -1,0 +1,17 @@
+public class 使用Foreach遍历数据 {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList();
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		list.add("4");
+		for (String string : list) {
+			System.out.println(string);
+		}
+		String[] arr = new String[list.size()];
+		list.toArray(arr);
+		for(String str : arr){
+			System.out.println(str);
+		}
+	}
+}
