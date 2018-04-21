@@ -1,0 +1,25 @@
+public class 终止循环体 {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList();
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		for(String str : list) {
+			if(str == "2") {
+				break;
+			}else {
+				System.out.println(str);
+			}
+		}
+		int [][] score = new int[][] {{76,86,56,35},{57,85,87,45},{34,87,97,66}};
+		NO1:for(int[] i : score) {
+			for(int j : i) {
+				if(j < 40) {
+					break NO1;
+				}else {
+					System.out.println(j);
+				}
+			}
+		}
+	}
+}
