@@ -1,0 +1,10 @@
+public class while自增遍历数组 {
+	public static void main(String[] args) {
+		String[] arr = {"鹦鹉","麻雀","丹顶鹤","布谷鸟","乌鸦"};
+		int index = 0;
+		System.out.println("鸟的种类有：");
+		while(index < arr.length) {
+			System.out.println(arr[index++]);
+		}
+	}
+}
