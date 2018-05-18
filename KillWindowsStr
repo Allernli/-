@@ -1,0 +1,5 @@
+netstat -ano | findstr 80
+
+tasklist | findstr 2604
+
+taskkill -PID 2604 -F
